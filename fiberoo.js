@@ -9,7 +9,7 @@ function fib() {
 console.log(fib());
 
 function numsToStrings(arr) {
-  const res = _.map(arr, function(point) {
+  const res = _.map(arr, function (point) {
     return `${point}`;
   });
   return res;
@@ -18,7 +18,7 @@ function numsToStrings(arr) {
 console.log(numsToStrings(fib()));
 
 function numEvenNums(arr) {
-  const res = _.filter(arr, function(point) {
+  const res = _.filter(arr, function (point) {
     return point % 2 === 0;
   });
   return res.length;
